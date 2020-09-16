@@ -1,16 +1,19 @@
 {
-	"name": "collin",
+	"name": "litmus-starter",
 	"version": "0.1.1",
-	"description": "A CLI to initialize boilerplate project template and also push it over to github to get users started directly with the project and not waste any time",
+	"description": "A CLI to initialize litmus portal for developers directly and not waste any time",
 	"main": "src/index.js",
 	"bin": "src/index.js",
 	"keywords": [
-		"collin",
+		"litmus",
 		"starter",
 		"kickstart",
 		"cli",
 		"boilerplate"
 	],
+	"scripts": {
+		"start": "node src/index.js"
+	},
 	"author": "Sayan Mondal",
 	"license": "MIT",
 	"dependencies": {
